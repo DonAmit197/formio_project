@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "font-awesome": "^4.7.0",
+    "formiojs": "^4.14.12",
+    "twitter-bootstrap": "^2.1.1"
+  }
+}

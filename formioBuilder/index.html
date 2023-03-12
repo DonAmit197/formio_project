@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/formiojs/dist/formio.full.css">
+</head>
+<body>
+    <!-- Builder-->
+    <div class="container-fluid">
+        <div class="row">
+            <select class="form-control" id="form-select" style="">
+                <option value="form">Form</option>
+                <option value="wizard">Wizard</option><
+                    option value="pdf">PDF</option>
+            </select>
+        </div>
+       
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="formBuilder"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card card-body bg-light jsonviewer">
+                    <pre id="json"></pre>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container-fluid"> 
+        <div class="row">
+            <div id="formio" class=""card card-body bg-light></div>
+        </div>
+
+    </div>
+<pre id="subjson"></pre>
+   
+    <script src="https://cdn.form.io/ace/ace.js"></script>
+  <script src="./formio.js/app/jquery/jquery.slim.min.js"></script>
+  <script src="./formio.js/app/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./formio.js/dist/formio.full.js"></script>
+    <script  src="./scripts/main.js"></script>
+</body>
+</html>
